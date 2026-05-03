@@ -893,4 +893,14 @@ button:hover, .btn:hover {
   .container {
     padding: 10px;
   }
+
+.dest-card {
+  cursor: pointer;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 }
