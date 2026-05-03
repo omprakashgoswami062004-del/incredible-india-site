@@ -122,3 +122,12 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
     if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
   });
 });
+// Dark mode toggle
+function toggleDark() {
+  document.body.classList.toggle("dark");
+}
+
+// Menu toggle
+function toggleMenu() {
+  document.getElementById("navLinks").classList.toggle("show");
+}
