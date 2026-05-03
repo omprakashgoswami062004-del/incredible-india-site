@@ -864,4 +864,33 @@ cite {
 .fade-in.visible {
   opacity: 1;
   transform: translateY(0);
+}/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Button hover */
+button, .btn {
+  transition: 0.3s;
+}
+
+button:hover, .btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Card hover animation */
+.dest-detail-card {
+  transition: 0.3s;
+}
+
+.dest-detail-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Mobile spacing fix */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
 }
