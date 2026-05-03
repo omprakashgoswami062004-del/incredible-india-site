@@ -129,5 +129,6 @@ function toggleDark() {
 
 // Menu toggle
 function toggleMenu() {
-  document.getElementById("navLinks").classList.toggle("show");
-}
+  document.getElementById("hamburger").onclick = function() {
+  document.querySelector(".nav-links").classList.toggle("active");
+};
